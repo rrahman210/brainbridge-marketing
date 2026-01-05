@@ -1,0 +1,21 @@
+# BrainBridge Robots.txt
+# https://brainbridge.cloud
+
+User-agent: *
+Allow: /
+
+# Marketing pages
+Allow: /
+Allow: /privacy
+Allow: /terms
+
+# Sitemap location
+Sitemap: https://brainbridge.cloud/sitemap.xml
+
+# Block app routes from being indexed on marketing domain
+# (These should only be indexed on app.brainbridge.cloud)
+Disallow: /login
+Disallow: /dashboard
+Disallow: /students
+Disallow: /settings
+Disallow: /admin
